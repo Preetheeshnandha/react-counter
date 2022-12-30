@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.counter{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 8rem;
+}
+
+.positive{
+    color: green;
+}
+
+.negative{
+    color: red;
+}
+
+button:not(.resetBtn){
+    width: 5rem;
+    height: 5rem;
+    font-weight: bolder;
+    font-size: 3rem;
+    border: none;
+    border-radius: 60%;
+    box-shadow: 0 0 10px black;
+    outline: none;   
+
+}
+
+button:hover{
+    background-color: #89C4E1;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+
+.counterBtn{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.resetBtn{
+border: none;
+font-size: 3rem;
+font-weight: bolder;
+border-radius: 10px;
+padding: 10px;
+}
+
